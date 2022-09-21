@@ -1,0 +1,159 @@
+/*---------Header----------*/
+
+.logo {
+
+    margin: 20px auto;
+    width: 80%;
+ }
+ .firkant {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column;
+    width: 300px;   height: 200px;
+ }
+ .quality_heading {
+    margin-bottom: 5px;
+ }
+ .boks {
+    border: 1px solid #925c6fa9;
+    width: 12.5rem;
+    height: 12.5rem;
+    margin-bottom: 30px;
+    background-color:  #D1B3B8;
+ }
+ .jessen {
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+   
+ }
+ .jessen2 {
+    color: #925c6fa9;
+    font-size: x-small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+   
+ }
+ .underoverskrift {
+    padding: 50px 16px;
+    text-align: center
+ }
+ .page_header {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.page_navigation {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 15,625rem;
+}
+
+.navigation_element {
+    text-decoration: none;
+    color: #615959c5;
+    
+}
+
+.bestil_tid {
+    background-color: #925c6fa9;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 30px;
+  padding-right: 30px;
+ 
+}
+
+.border_text {
+    border-style: solid; color: rgb(129, 131, 127);
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+}
+
+.hjerte_billede {
+ width: 30px;
+ height: 30px;
+ margin: 2px;
+ padding: 5px;
+}
+ 
+ /*-------------- Brillevideo -----------*/
+
+.brille_video {
+    border: solid; color: black;
+    margin-top: 50px;
+    max-width: 100%;
+    height: 650px;
+    width: 1300px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 37.5rem) {
+
+    .page_header {
+        flex-direction: row;
+       }
+    
+}
+
+@media only screen and (min-width: 53.438rem) {
+    
+    .page_navigation {
+        justify-content: flex-end;
+    }
+
+.navigation_element {
+    margin-left: 30px;
+}
+
+
+
+}
